@@ -1,0 +1,42 @@
+.poster-wrapper {
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    height: 614.07px;
+
+}
+
+
+
+.poster-descr{
+    
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.poster-img {
+    border-radius: 15px;
+    border: 1px solid gold;
+    margin: 15px;
+    
+
+}
+
+.randomizer-app{
+    background-color: #000F0C;
+
+    
+}
+
+@media all and (min-width: 960px) {
+.poster-wrapper {
+    height: 614.07px;
+    }
+}  

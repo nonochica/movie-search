@@ -1,0 +1,28 @@
+.getMovie {
+    display: block;
+    margin-top: 50px;
+  }
+  
+  
+  .getMovie__btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid #FAFF1D;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FAFF1D;
+    background: transparent;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    outline: none;
+    
+  }
+  
+  .getMovie__btn:hover{
+    background-color: #FAFF1D;
+    border-radius: 4px;
+    transition: all 0.5s ease-out;
+    border: 2px solid #FAFF1D;
+    color: #000F0C;
+  }

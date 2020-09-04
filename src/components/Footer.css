@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+  
+.footer-page {
+  background: #000F0C;
+  color: #FAFF1D;
+  line-height: 1.5;
+    
+}
+
+.footer-page a {
+  text-decoration: none;
+  color: #FAFF1D;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.ft-title {
+  color: #FAFF1D;
+  font-size: 16px;
+  padding-bottom: 8px;
+  font-family: 'Space Mono';
+  cursor: default;  
+}
+
+  
+.body-footer {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+}
+  
+.ft-main {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Space Mono';
+  font-size: 13px;
+  padding-bottom: 15px;
+
+}
+  
+
+@media only screen and (min-width: 960px) {
+.ft-main {
+  justify-content: space-evenly;
+  padding-bottom: 15px;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+}
+  }
+  .ft-main-item {
+    padding: 8px;
+    min-width: 200px;
+    align-self: center;
+  }
+
+  .ft-social {
+    padding: 8px;
+    align-self: center;
+
+  }
+  
+  .ft-social-list li {
+    margin: 8px;
+    font-size: 20px;
+    
+  }
+
+  .ft-legal {
+    padding: 8px;
+    align-self: center;
+  }
+  .ft-legal-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ft-legal-list li {
+    margin: 2px 10px;
+    white-space: nowrap;
+  }
+  .ft-legal-list li:nth-last-child(2) {
+      flex: 1;
+  }
+
+  @media only screen and (min-width: 477px) {
+    .ft-main {
+      justify-content: space-evenly;
+      padding-bottom: 15px;
+
+    }
+    .ft-social-list {
+      display: flex;
+      
+    }
+  }

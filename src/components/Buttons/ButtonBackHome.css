@@ -1,0 +1,21 @@
+
+
+.button-back-home i {
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Space Mono';
+    border: 2px solid #000F0C;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: #000F0C;
+
+}
+
+.button-back-home:hover i {
+    background-color: #000F0C;
+    border-radius: 4px;
+    transition: all 0.5s ease-out;
+    border: 2px solid #000F0C;
+    color: #00FFD1;
+}
+

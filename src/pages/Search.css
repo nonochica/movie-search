@@ -1,0 +1,38 @@
+.page-search-content {
+    background: #000F0C;
+    text-align: center;
+    height: 100vh;
+}
+
+.Form-Wrapper {
+    display: flex;
+    justify-content: center;
+      
+  }
+
+.search-text {
+    margin-top: 20px;
+    font-family: 'Work Sans';
+	font-weight: normal;
+    font-size: 16px;
+    color: #FEFFE0;
+}
+
+.search-text2 {
+    margin-top: 20px;
+    font-family: 'Work Sans';
+	font-weight: normal;
+    font-size: 16px;
+    color: #FEFFE0;
+
+}
+
+@media all and (min-width: 750px) {
+
+    .SearchForm__input {
+      width: 800px;
+  
+    }
+  
+}
+

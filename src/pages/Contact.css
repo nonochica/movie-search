@@ -1,5 +1,5 @@
 .contact {
-    height: calc(100vh - 160.7px);
+    /* height: calc(100vh - 160.7px);  */
     background-color: #000F0C;
     text-align: center;
     display: flex;
@@ -150,6 +150,7 @@ textarea {
 @media all and (min-width: 750px) {
     
     .contact {
+        height: calc(100vh - 160.7px);
         display: grid;
         grid-template-columns: repeat(2,50%);
         align-items: center;

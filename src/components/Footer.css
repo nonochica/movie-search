@@ -99,8 +99,33 @@ a:hover {
 
   @media only screen and (min-width: 477px) {
     .ft-main {
+      display: flex;
       justify-content: space-evenly;
-      padding-bottom: 15px;
+
+    }
+    .ft-social-list {
+      display: flex;
+      
+    }
+  }
+
+
+  @media only screen and (min-width: 375px) {
+    .ft-main {
+      display: flex;
+      justify-content: space-evenly;
+
+    }
+    .ft-social-list {
+      display: flex;
+      
+    }
+  }
+
+  @media only screen and (min-width: 360px) {
+    .ft-main {
+      display: flex;
+      justify-content: space-evenly;
 
     }
     .ft-social-list {

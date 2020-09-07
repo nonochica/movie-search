@@ -1,14 +1,14 @@
 .page-search-content {
-    background: #000F0C;
+    background-color: #000F0C;
     text-align: center;
-    height: 100vh;
+    height: 120vh;
 }
 
 .Form-Wrapper {
     display: flex;
     justify-content: center;
       
-  }
+  } 
 
 .search-text {
     margin-top: 20px;
@@ -27,12 +27,4 @@
 
 }
 
-@media all and (min-width: 750px) {
-
-    .SearchForm__input {
-      width: 800px;
-  
-    }
-  
-}
 

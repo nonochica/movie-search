@@ -27,12 +27,11 @@ export class Movie extends Component {
                 </figure>
             </div>
             <div className="card-content">
-                <div className="media">
-                    <div className="media-content">
+                
                         <p className="movie-title">{title}</p>
                         <p className="movie-year">{year}</p>
-                    </div>
-                </div>
+                    
+                
             </div>
         </Link>
         

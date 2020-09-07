@@ -1,20 +1,52 @@
 
   
 .MoviesList {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   padding: 16px;
-  justify-content: space-around;
-  background: #000F0C;
-  width: 100%; 
-
+  background-color: #000F0C;
+  width: 100%;  
+ 
  
 }
+
+
   
 .MoviesList-item {
-  margin: 20px;
-  width: 44%;
+  display: block;
+  margin: 0 auto;
+  grid-template-columns: 1;
+  padding: 20px;
+
+  /* margin: 20px; */
+  /* width: 44%; */
   border-radius: 15px;
 
 }
 
+@media all and (min-width: 750px) {
+  .MoviesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+}
+
+@media all and (min-width: 320px) {
+  /* .movie-image img {
+    width: 275px;
+  } */
+/* 
+  .MoviesList-item {
+  
+    padding: 2px;
+  }
+
+  .MoviesList {
+    
+    padding: 16px;
+   
+   
+   
+  } */
+}

@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <Switch>
-          <Route exact path='/movie-search' component={Home} />
+          <Route path='/' component={Home} />
           <Route path='/detail/:movieId' component={Detail} />
           <Route path='/search' component={Search} />
           <Route path='/randomizer' component={RandomMovie} />

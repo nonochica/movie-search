@@ -19,7 +19,7 @@ class App extends Component {
         <HashRouter basename='/'>
           <div>
             <ul>
-              <li><Link to='/'>Home</Link></li>
+              <li><Link to='/movie-search'>Home</Link></li>
               <li><Link to='/detail/:movieId'>Detail</Link></li>
               <li><Link to='/search'>Search</Link></li>
               <li><Link to='/randomizer'>Randomizer</Link></li>
@@ -27,7 +27,7 @@ class App extends Component {
               <li><Link to='/login'>Login</Link></li>
             </ul>
           </div>
-          <Route exact path="/"component={Home} />
+          <Route exact path="/movie-search"component={Home} />
           <Route path='/detail/:movieId' component={Detail} />
           <Route path='/search' component={Search} />
           <Route path='/randomizer' component={RandomMovie} />

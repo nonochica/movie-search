@@ -1,6 +1,6 @@
 {
-  "homepage": "https://nonochica.github.io/buscador-peliculas" ,
-  "name": "buscador-peliculas",
+  "homepage": "https://nonochica.github.com/movie-search" ,
+  "name": "movie-search",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

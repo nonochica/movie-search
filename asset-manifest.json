@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/movie-search.git/static/css/main.ddad7b9e.chunk.css",
-    "main.js": "/movie-search.git/static/js/main.9fdc95c4.chunk.js",
-    "main.js.map": "/movie-search.git/static/js/main.9fdc95c4.chunk.js.map",
-    "runtime-main.js": "/movie-search.git/static/js/runtime-main.aefe9b6d.js",
-    "runtime-main.js.map": "/movie-search.git/static/js/runtime-main.aefe9b6d.js.map",
-    "static/js/2.7ac77330.chunk.js": "/movie-search.git/static/js/2.7ac77330.chunk.js",
-    "static/js/2.7ac77330.chunk.js.map": "/movie-search.git/static/js/2.7ac77330.chunk.js.map",
-    "index.html": "/movie-search.git/index.html",
-    "precache-manifest.722668715ba78763b2ae694d27fb6e13.js": "/movie-search.git/precache-manifest.722668715ba78763b2ae694d27fb6e13.js",
-    "service-worker.js": "/movie-search.git/service-worker.js",
-    "static/css/main.ddad7b9e.chunk.css.map": "/movie-search.git/static/css/main.ddad7b9e.chunk.css.map",
-    "static/js/2.7ac77330.chunk.js.LICENSE.txt": "/movie-search.git/static/js/2.7ac77330.chunk.js.LICENSE.txt",
-    "static/media/Cartel cinema.png": "/movie-search.git/static/media/Cartel cinema.e99225ec.png",
-    "static/media/Tickets.png": "/movie-search.git/static/media/Tickets.6f8e64c0.png"
+    "main.css": "/movie-search/static/css/main.ddad7b9e.chunk.css",
+    "main.js": "/movie-search/static/js/main.5fe8f087.chunk.js",
+    "main.js.map": "/movie-search/static/js/main.5fe8f087.chunk.js.map",
+    "runtime-main.js": "/movie-search/static/js/runtime-main.8345f5b5.js",
+    "runtime-main.js.map": "/movie-search/static/js/runtime-main.8345f5b5.js.map",
+    "static/js/2.a9b34929.chunk.js": "/movie-search/static/js/2.a9b34929.chunk.js",
+    "static/js/2.a9b34929.chunk.js.map": "/movie-search/static/js/2.a9b34929.chunk.js.map",
+    "index.html": "/movie-search/index.html",
+    "precache-manifest.6e154d3fa63f3e41613f8f8c25016b53.js": "/movie-search/precache-manifest.6e154d3fa63f3e41613f8f8c25016b53.js",
+    "service-worker.js": "/movie-search/service-worker.js",
+    "static/css/main.ddad7b9e.chunk.css.map": "/movie-search/static/css/main.ddad7b9e.chunk.css.map",
+    "static/js/2.a9b34929.chunk.js.LICENSE.txt": "/movie-search/static/js/2.a9b34929.chunk.js.LICENSE.txt",
+    "static/media/Cartel cinema.png": "/movie-search/static/media/Cartel cinema.e99225ec.png",
+    "static/media/Tickets.png": "/movie-search/static/media/Tickets.6f8e64c0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.aefe9b6d.js",
-    "static/js/2.7ac77330.chunk.js",
+    "static/js/runtime-main.8345f5b5.js",
+    "static/js/2.a9b34929.chunk.js",
     "static/css/main.ddad7b9e.chunk.css",
-    "static/js/main.9fdc95c4.chunk.js"
+    "static/js/main.5fe8f087.chunk.js"
   ]
 }

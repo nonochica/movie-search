@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 
 import { Home } from './pages/Home'
 import { Detail } from './pages/Detail'
@@ -16,15 +16,15 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <Switch>
-          <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
+        <HashRouter>
+          <Route exact path="/"component={Home} />
           <Route path='/detail/:movieId' component={Detail} />
           <Route path='/search' component={Search} />
           <Route path='/randomizer' component={RandomMovie} />
           <Route path='/contact' component={Contact} />
           <Route path='/login' component={Login} />
           <Route component={NotFound} />
-        </Switch>
+        </HashRouter>
       </div>
     );
   }
